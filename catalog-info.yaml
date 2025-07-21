@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: meeran
+  description: |
+    No description provided
+  annotations:
+    github.com/project-slug: Meeranmk/meeran
+  links:
+    - title: Repository
+      url: https://github.com/Meeranmk/meeran
+spec:
+  type: service
+  lifecycle: production
+  owner: user:Meeranmk
